@@ -27,6 +27,7 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     NavComponent,
     ProductCrudComponent,
     HomeComponent,
-    ProductCreateComponent
+    ProductCreateComponent,
+    ProductReadComponent
   ],
   imports: [
     BrowserModule,
