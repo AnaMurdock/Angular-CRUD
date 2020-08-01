@@ -14,13 +14,17 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+
 import { HeaderComponent } from './components/template/header/header.component';
+import { HomeComponent } from './views/home/home.component';
 
 import { NavComponent } from './components/template/nav/nav.component';
 import { FooterComponent } from './components/template/footer/footer.component';
 
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
-import { HomeComponent } from './views/home/home.component';
 
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
@@ -44,7 +48,10 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     MatListModule,
     MatCardModule,
     MatButtonModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
