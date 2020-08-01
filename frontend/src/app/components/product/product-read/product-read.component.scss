@@ -1,0 +1,19 @@
+div {
+    margin: 17px;
+    table {
+        width: 100%;
+        td {
+            .edit {
+                i {
+                    color: #585858;
+                    margin-right: 10px;
+                }
+            }
+            .delete {
+                i {
+                    color: #E35E6B;
+                }
+            }
+        }
+    }
+}
